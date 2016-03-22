@@ -1,0 +1,35 @@
+.content {
+    background-color: #f1f1f1;
+}
+
+.container {
+    padding: 2em;
+    margin-bottom: auto;
+}
+
+.text-center {
+    font-family: "Seravek";
+    font-style: "regular";
+    color: black;
+    font-size: 24px;
+}
+
+.text-title {
+    font-family: "Seravek";
+    font-size: 20px;
+    color: #f56508;
+}
+
+p {
+    font-family: "Seravek";
+    color: #6d6e71;
+    font-size: 16px;
+}
+
+.fa-comment {
+    color: #f56508;
+}
+
+i.fa.fa-comment {
+    font-size: 60px;
+}
