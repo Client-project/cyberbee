@@ -1,4 +1,260 @@
 <!DOCTYPE html>
-<head></head>
-<body></body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+    <!--HEADER NAVBAR-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="navbar-brand" href="#myPage"><img src="images/compass.png"></a>
+                    </li>
+                    <li><a href="#home"><strong>HOME</strong></a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>ABOUT</strong><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">How it Works</a></li>
+                            <li><a href="#">Guiding Principles</a></li>
+                            <li><a href="#">Classes</a></li>
+                            <li><a href="#">Staff and Volunteers</a></li>
+                            <li><a href="#">FAQ and Testimonials</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Calendar</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONTRIBUTE</strong><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Donate</a></li>
+                            <li><a href="#">Volunteer</a></li>
+                            <li><a href="#">Wish List</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONNECT</strong><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Get Involved</a></li>
+                            <li><a href="#">Admission and Tuition</a></li>
+                            <li><a href="#">Registrations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#search"><i class="fa fa-search"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end of header navbar-->
+
+
+    <!--CAROUSEL-->
+    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#" data-slide-to="0" class="active"></li>
+            <li data-target="#" data-slide-to="1"></li>
+            <li data-target="#" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="#"> <img src="images/sparklers.jpg" alt="Sparklers">
+                </a>
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"> <img src="images/parliament.jpg" alt="Parliament">
+                </a>
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"> <img src="images/balloons.jpg" alt="Balloons">
+                </a>
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+    <!--End of Carousel-->
+
+
+    <!--ABOUT SECTION -->
+    <div class="about-section">
+        <div id="about" class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <h2>Lorem Ipsum Text</h2>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of about-section-->
+
+
+    <!--Block of 6 links-->
+    <div class="six-block">
+        <div class="container-fluid text-center bg-grey">
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <p><strong>How It Works</strong></p>
+                    <div class="thumbnail">
+                        <img src="images/volunteering.jpg" alt="Balloons" width="400" height="300">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p><strong>Classes</strong></p>
+                    <div class="thumbnail">
+                        <img src="images/volunteering.jpg" alt="Sparklers" width="400" height="300">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p><strong>Donate</strong></p>
+                    <div class="thumbnail">
+                        <img src="images/volunteering.jpg" alt="San Francisco" width="400" height="300">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center bg-grey">
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <p><strong>Volunteering</strong></p>
+                    <div class="thumbnail">
+                        <img src="images/volunteering.jpg" alt="Balloons" width="400" height="300">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p><strong>Admission/Tuition</strong></p>
+                    <div class="thumbnail">
+                        <img src="images/admission.jpg" alt="Sparklers" width="400" height="300">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p><strong>Donate</strong></p>
+                    <div class="thumbnail">
+                        <img src="images/donate.jpg" alt="San Francisco" width="400" height="300">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of six block-->
+
+    <!--Video section-->
+
+    <div class="video-section">
+        <div class="container-fluid bg-grey">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>COMPASS SPEAKS</h2>
+                    <br>
+                    <p>This short video gets to the heart of what makes Canada’s only self-directed education centre the unique and inspiring environment that it is. Trust us: this is six minutes you won’t regret. Visit us on one of our Open House dates from 12-1 pm on Oct 29th, Nov 26th, and Dec 17th or contact us by email or by phone at (613) 916-6303.</p>
+                </div>
+                <div class="col-sm-8">
+                    <div class="video-link">
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/L-E6AyS0eAM" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of video-section-->
+    <br>
+
+    <!--Block of 2 links-->
+    <div class="two-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Get in Touch!</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="btn btn-success btn-lg">
+                        <i class="fa fa-comment"></i>Connect
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Calendar</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="btn btn-success btn-lg">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!--Block of 2 links-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h3>Our Latest Posts</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-plus-sign"></span>
+                    </a>
+                </div>
+                <div class="col-sm-5">
+                    <h3>Liberated Learners</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-plus-sign"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of two-block-->
+
+
+    <!--Full width image-->
+    <div class="full-width-image">
+        <div class="wrapper">
+            <img src="images/desk.jpg" alt="Desk" />
+            <div class="overlay">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            </div>
+        </div>
+    </div>
+    <!--End of full-width-image-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
