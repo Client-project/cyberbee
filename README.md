@@ -1,2 +1,0 @@
-# cyberbee
-cyberbee repository

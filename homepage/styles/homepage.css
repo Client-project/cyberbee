@@ -22,7 +22,7 @@ li:before {
 }
 
 
-/*
+
 .navbar navbar-default navbar-fixed-top,
 .container-fluid,
 .collapse navbar-collapse,
@@ -33,7 +33,7 @@ li,
 a {
     background: pink;
 }
-*/
+
 
 .navbar navbar-default navbar-fixed-top,
 .container-fluid,
@@ -124,6 +124,32 @@ p {
 
 
 /*VIDEO SECTION*/
+
+.col-sm-8{
+    margin: 0 auto;
+}
+
+.video-section, h2 {
+    background-color: bisque;
+    font-family: helvetica, arial, sans-serif;
+    color: black;
+}
+
+.video-section, p {
+    background-color: chartreuse;
+    font-family: helvetica, arial, sans-serif;
+    color: black;
+}
+
+.video-section, .video-link {
+    background-color: aqua;
+   
+}
+iframe{
+    display:table;
+}
+
+
 
 .video-section,
 container-fluid bg-grey,
