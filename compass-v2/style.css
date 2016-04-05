@@ -1,0 +1,403 @@
+/*
+Theme Name: Custom-Compassteens
+Theme URI: http://www.compassteens.org/
+Description: Custom theme for client.
+Author: Tanya Hay, Alex Brohman, Maria Alejandra Torres
+Author URI: http://www.compassteens.org/
+Version: 1.0
+*/
+	
+	/*Page Styles*/html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+    box-sizing: border-box;
+}
+
+/*HEADER NAVBAR*/
+
+.navbar li {
+    height: 5em;
+    cursor: pointer;
+    color: white;
+    display: inline;
+}
+
+.navbar li:before {
+    font-family: Seravek, arial, sans-serif;
+    color: #f56508;
+    margin: 0 5px 0 -15px;
+}
+
+/*
+.nav-row {
+    height: 50px;
+}
+*/
+
+.navbar {
+    position: relative;
+    margin-bottom: 0; 
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 18px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Seravek, Montserrat, sans-serif;
+    font-style: strong;
+}
+
+.navbar-brand img {
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+.navbar li a {
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: black !important;
+    vertical-align: middle;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #ffffff !important;
+    background-color: #F26522 !important;
+    height: 100%;
+}
+
+.navbar-wrap {
+    height: 90px;
+}
+
+.navbar-collapse {
+    min-height: 90px;
+}
+
+.navbar-brand {
+    position: relative;
+    top: 50%;
+    transform: translateY(-30%);
+}
+
+.navbar-toggle {
+    position: relative;
+    top: 20px;
+}
+
+/*CAROUSEL*/
+
+.tales {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 600px !important;
+}
+
+
+/*ABOUT SECTION*/
+
+.about-section {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    border-top: solid 15px #F26522;
+}
+
+.about-section h2 {
+    font-family: helvetica, arial, sans-serif;
+    color: #F26522 !important;
+    text-align: center;
+    
+}
+
+.about-section p {
+    font-family: helvetica, arial, sans-serif;
+    color: #6d6e71;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/*BlOCK OF 6*/
+
+.six-block h2 {
+    font-family: helvetica, arial, sans-serif;
+    color: black;
+}
+
+.six-block p {
+    font-family: helvetica, arial, sans-serif;
+    color: black;
+}
+
+.six-block img {
+    max-width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.six-block .thumbnail {
+    border: none;
+}
+
+.six-block h4 a {
+    color: #f56508;
+    font-size: 20px;
+    font-family: Seravek, arial, sans-serif;  
+}
+
+
+/*VIDEO SECTION*/
+
+.video-section {
+    background-color: #f2f2f2;
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+    margin: 0;
+}
+
+.video-section .content-wrapper {
+    height: 100%;
+}
+
+
+.video-section h2 {
+    font-family: helvetica, arial, sans-serif;
+    color: #f56508;
+}
+
+.video-section p {
+    font-family: helvetica, arial, sans-serif;
+    color: black;
+    vertical-align: middle; 
+}
+
+.vid-text {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    top: 20%;
+    margin-bottom: auto;
+}
+
+
+.video-link iframe {
+    width: 100%;
+    min-height: 100%;
+    margin-top: 5%;
+}
+
+
+/*Blocks of 2*/
+.two-block {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.two-block h3 {
+    color: #f56508; 
+    font-family: Seravek, arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.two-block p {
+    color: #6d6e71;
+    font-family: helvetica, arial, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.two-block a {
+    background-color: #f56508;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+two
+
+.two-block a:hover {
+    background-color: #bd4b02;
+}
+
+.two-block a:active {
+    background-color: #762e00;
+}
+
+.two-block #btn-text {
+    font-size: 20px;
+}
+
+/*FULL WIDTH IMAGE*/
+
+.bottom-photo {
+    height: 300px;
+    background-image: url(../images/desk.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.overlay h2 {
+    text-align: center;
+    color: white;
+    margin: auto auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* FOOTER */
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: #6d6e71; 
+    padding-top: 30px;
+}
+
+footer .row {
+    margin: 0;
+}
+
+
+.footer-head-small, .footer-head {
+    color: #f56508;
+    font-family: Seravek, comic-sans;
+    text-align: center;
+}
+
+.footer-head {
+    padding: 0;
+    font-family: ;
+}
+
+.footer-section {  
+   margin-bottom: 30px;
+}
+
+.footer-address {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+
+.social-icons {
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.social-icons li {
+    display: inline-block;
+    margin: 1em;
+    float: left;
+}
+
+.social-icons li:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.social-icons li a {
+    font-size: 2em;
+    color: #f56508;
+    
+}
+
+.footer-menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.footer-menu li {
+    display: inline;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.footer-menu a {
+    color: #6d6e71;
+}
+
+.footer-menu a:active, 
+.footer-menu a:hover {
+    color: #f56508;     
+}
+
+.footer-rights {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+/* mailchimp edits */
+
+#mc_embed_signup {
+    background-color: transparent;
+}
+
+#mc_embed_signup form {
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+/* MEDIA QUERIES */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+    #mc_embed_signup {
+        max-width: 40%;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+	
+/*About Page Custom CSS*/
+.profile-thumb{
+    max-width:150px;
+}

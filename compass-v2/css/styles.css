@@ -1,0 +1,367 @@
+/*
+Theme Name: Compass Theme
+Theme URI: http://clienturl.ca/
+Description: Custom theme for client.
+Author: Tanya Hay, Alex Brohman, Maria Alejandra Torres
+Author URI: http://compuglobalhyper.net
+Version: 1.0
+*/
+	
+	/*Page Styles*/
+	p {
+		display: block;
+		-webkit-margin-before: 1em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+	}
+	
+	h3 {
+		font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+		font-style: normal;
+		font-weight: 300;
+		letter-spacing: 1px;
+		color: #f56508;
+	}
+		
+	/*Header Styles*/
+	
+
+	/*content styles*/	
+
+				
+	/*footer styles*/
+
+	.container-fluid {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	footer {
+		background-color: #f1f1f1;
+		color: #6d6e71; 
+		padding-top: 10px;
+		box-sizing: border-box;
+	}
+	
+	footer .row {
+		margin: 0;
+	}
+	
+	.footer-head-small, .footer-head {
+		color: #f56508;
+		font-family: Seravek, comic-sans;
+		text-align: center;
+	}
+	
+	.footer-head {
+		padding: 0;
+		font-family: ;
+	}
+	
+	.footer-section {  
+	   margin-bottom: 30px;
+	}
+	
+	.footer-address {
+		padding-left: 10%;
+		padding-right: 10%;
+		text-align: center;
+	}
+	
+	.social-icons {
+		margin: 0 auto;
+		width: -webkit-fit-content;
+		width: -moz-fit-content;
+		width: fit-content;
+	}
+	.social-icons li {
+		display: inline-block;
+		margin: 1em;
+		float: left;
+	}
+	
+	.social-icons li:after { 
+	   content: "."; 
+	   visibility: hidden; 
+	   display: block; 
+	   height: 0; 
+	   clear: both;
+	}
+	
+	.social-icons li a {
+		font-size: 2em;
+		color: #f56508;		
+	}
+	
+	.footer-menu {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+	}
+	
+	.footer-menu li {
+		display: inline;
+		margin-right: 1em;
+		margin-left: 1em;
+	}
+	
+	.footer-menu a {
+		color: #6d6e71;
+	}
+	
+	.footer-menu a:active, 
+	.footer-menu a:hover {
+		color: #f56508;     
+	}
+	
+	.footer-rights {
+		text-align: center;
+		margin-bottom: 0;
+		padding-bottom: 10px;
+	}
+	
+	/* mailchimp edits */
+	
+	#mc_embed_signup {
+		background-color: transparent;
+	}
+	
+	#mc_embed_signup form {
+		padding-top: 0;
+		margin: 0 auto;
+	}
+	
+	/* MEDIA QUERIES */
+	
+	/* Small devices (tablets, 768px and up) */
+	@media (min-width: @screen-sm-min) { ... }
+	
+	/* Medium devices (desktops, 992px and up) */
+	@media (min-width: @screen-md-min) { 
+		#mc_embed_signup {
+			max-width: 40%;
+			margin: 0 auto;
+		}
+	}
+	
+	/* Large devices (large desktops, 1200px and up) */
+	@media (min-width: @screen-lg-min) { ... }
+	/*end footer styles*/	
+	
+	
+	
+	/*a link styles*/	
+	
+	.menu li, a{
+		display:inline;
+		list-style:none;
+		font-family:arial;
+		font-size:100%;
+		text-align: center;
+		line-height: 3em;
+		}	
+		
+	a, a:link, a:visited {
+		text-decoration: none;
+		color:#bed4d1;
+		margin: 10%;
+	}
+	
+	a:hover {
+		color:#ffffff;
+		}	
+				
+	li, a{
+		display:inline;
+		list-style:none;
+		font-family:arial;
+		font-size:100%;
+		text-align: center;
+		line-height: 3em;
+		}	
+	
+	/*Responsive Styles*/
+	
+	.desktop { 
+		display: block; 
+		}
+	
+	.port-phone, 
+	.land-phone, 
+	.port-tab, 
+	.wide-desk { 
+		display: none; 
+		}
+	
+	.port-phone { 
+		display: block; 
+		}
+	
+	.land-phone, 
+	.port-tab, 
+	.desktop, 
+	.wide-desk { 
+		display: none; 
+		}		
+	/* Portrait Phones and down */
+	@media only screen and (max-width: 30em) 
+		{
+		 /* CSS */ 
+		h1 {
+			font-size: 2em;
+		}
+		
+		p {
+			font-size: 1.4em;
+		}
+		
+		.col-main,
+		.col-side {
+			float: none;
+			width: 100%;
+		}
+		
+		.wrapper {
+			width: 100%;
+			max-width: 30em;
+		}
+		
+		.port-phone {
+			display:block;
+		}
+		
+		.desktop, 
+		.land-phone, 
+		.port-tab, 
+		.wide-desk { 
+			display: none; 
+		}
+	}
+	
+	/*LANDSCAPE PHONES AND PORTRAIT TABLET*/
+	@media only screen and (min-width: 30em) and (max-width: 48em) 
+	
+	{ /* CSS */ 
+		h1 {
+			font-size: 2.2em;			
+			}
+		
+		p {
+			font-size: 1.2em;
+		}
+		
+		.col-main,
+		.col-side {
+			float: none;
+			width: 100%;
+		}
+		
+		.wrapper {
+			width: 100%;
+			min-width:30em;
+			max-width:48em;
+		}
+		
+		.land-phone {
+			display:block;
+		}
+		
+		.land-phone { 
+		display: block; 
+		}
+	
+		.desktop,
+		.port-phone, 
+		.port-tab, 
+		.wide-desk { 
+		display: none; 
+		}
+	}
+	
+	/*RETINA PORTRAIT TABLET, LANDSCAPE TABLETS AND NARROW DESKTOP*/
+	@media only screen and (min-width: 48em) and (max-width: 60em) { /* CSS */ 
+		.wrapper {
+			width:48em;
+			max-width:60em;
+		}
+		
+		h1 {
+			font-size: 2.8em;
+		}
+		
+		p {
+			font-size:1em;
+		}
+	
+		.port-tab { 
+			display: block; 
+		}
+	
+		.desktop,
+		.port-phone, 
+		.land-phone, 
+		.wide-desk { 
+			display: none; 
+		}
+	}
+		
+	/*RETINA LANDSCAPE TABLETS AND STANDARD DESKTOP*/
+	@media only screen and (min-width: 60em) and (max-width: 72.5em){ /* CSS */ 
+	
+		.wrapper {
+			width:60em;		
+		}
+			
+		h1 {
+			font-size: 3.2em;
+		}
+		
+		p {
+			font-size:1em;
+		}
+	
+		.desktop { 
+			display: block; 
+		}
+	
+		.port-tab,
+		.port-phone, 
+		.land-phone, 
+		.wide-desk { 
+			display: none; 
+		}	
+	}
+		
+	/*WIDESCREEN DESKTOP*/
+	@media only screen and (min-width: 72.5em) { 
+	/* CSS */ 
+	
+		.wrapper {
+			width:72.5em;
+		}
+		
+		h1 {
+			font-size: 3.6em;
+		}
+		
+		p {
+			font-size: 1.1em;
+		}
+		
+		.wide-desk { 
+			display: block; 
+		}
+	
+		.port-tab,
+		.port-phone, 
+		.land-phone, 
+		.desktop{ 
+			display: none; 
+		}
+	}
+/*About Page Custom CSS*/
+.profile-thumb{
+    max-width:150px;
+}
