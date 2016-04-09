@@ -1,8 +1,53 @@
+/* Default Styling */
+
 html, body {
     width: auto !important;
     overflow-x: hidden !important;
     box-sizing: border-box;
 }
+
+
+
+h2, h3, h4 {
+    color: #f56508;
+
+}
+
+h3 {
+    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #f56508;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+} 
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #f56508;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 90%;
+    
+} 
+
+
+p {
+    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color:  #565656;
+    width: 90%;
+    margin: 0 auto;
+}
+
+div p:last-of-type {
+    margin-bottom: 50px;
+}
+
 
 /*HEADER NAVBAR*/
 
@@ -14,7 +59,7 @@ html, body {
 }
 
 .navbar li:before {
-    font-family: Seravek, arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #f56508;
     margin: 0 5px 0 -15px;
 }
@@ -35,7 +80,7 @@ html, body {
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    font-family: Seravek, Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: strong;
 }
 
@@ -146,7 +191,7 @@ html, body {
 .six-block h4 {
     color: #f56508;
     font-size: 20px;
-    font-family: Seravek, arial, sans-serif;  
+   font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -200,7 +245,7 @@ html, body {
 }
 .two-block h3 {
     color: #f56508; 
-    font-family: Seravek, arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 30px;
 }
@@ -287,7 +332,7 @@ footer .row {
 
 .footer-head-small, .footer-head {
     color: #f56508;
-    font-family: Seravek, comic-sans;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -371,6 +416,7 @@ footer .row {
     padding-top: 0;
     margin: 0 auto;
 }
+
 
 /* MEDIA QUERIES */
 
